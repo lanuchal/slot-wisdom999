@@ -63,7 +63,7 @@ a:hover {
   animation: slide 0.5s forwards;
 }
 .title-left-box {
-  background: linear-gradient(175deg, #6b0b0b 30%, #021818);
+  background: linear-gradient(175deg, #6b0b68 30%, #021818);
   /* padding: 1rem; */
 }
 .title-left-box div {
@@ -84,10 +84,10 @@ ul {
   color: #fff;
 }
 .slide-li-menu:hover a {
-  color: #c74b4b;
+  color: #c74bc5;
 }
 .slide-li-menu:hover {
-  background: linear-gradient(175deg, #6b0b0b 30%, #021818);
+  background: linear-gradient(175deg, #6b0b69 30%, #021818);
 }
 @-webkit-keyframes slide {
   100% {
@@ -195,20 +195,20 @@ ul {
   margin-right: auto;
   text-align: center;
   border-radius: 2rem;
-  background-image: linear-gradient(171deg, #e06060, #b32b2b 51.68%, #922d2d);
+  background-image: linear-gradient(171deg, #c3adff, #9333ed 51.68%, #542d92);
 }
 .btn-sign-up2 {
   border-radius: 2rem;
-  background-image: linear-gradient(171deg, #e06060, #b32b2b 51.68%, #922d2d);
+  background-image: linear-gradient(171deg, #c3adff, #9333ed 51.68%, #542d92);
 }
 .btn-sign-up3 {
   margin-right: auto;
   text-align: center;
   border-radius: 2rem;
-  background-image: linear-gradient(171deg, #e06060, #b32b2b 51.68%, #922d2d);
+  background-image: linear-gradient(171deg, #c3adff, #9333ed 51.68%, #542d92);
 }
 .base-color {
-  color: #ffc2b7;
+  color: #f29bfe;
 }
 hr.x-hr {
   height: 3px;
@@ -216,10 +216,10 @@ hr.x-hr {
   margin: 0 auto;
   background: linear-gradient(
     90deg,
-    #580000,
-    #eb7b7b 30%,
-    #c26a6a 70%,
-    #490000
+    #21103d,
+    #c3adff 30%,
+    #c3adff 70%,
+    #8152cc
   );
   width: 100%;
   text-align: center;
@@ -232,7 +232,7 @@ hr.x-hr {
   background-image: url("../assets/imgs/bg.jpg");
 }
 .box-border-page1 {
-  background: linear-gradient(90deg, #380606ad 40%, #031616);
+  background: linear-gradient(90deg, #380635ad 40%, #031616);
   border-radius: 40px;
   border: 3px solid #a58556;
   box-shadow: -5px -5px 10px #000;
@@ -240,20 +240,20 @@ hr.x-hr {
   margin: auto;
 }
 .box-border-page2 {
-  background: linear-gradient(90deg, #380606ad 40%, #031616);
+  background: linear-gradient(90deg, #380635ad 40%, #031616);
   border-radius: 40px;
   /* border: 3px solid #a58556; */
   box-shadow: -5px -5px 10px #000;
   width: 100%;
 }
 .box-border-page3 {
-  background: linear-gradient(90deg, #380606ad 40%, #031616);
+  background: linear-gradient(90deg, #380635ad 40%, #031616);
   border-radius: 10px;
   box-shadow: -5px -5px 10px #000;
   /* width: 100%; */
 }
 .box-footer {
-  background: linear-gradient(90deg, #710000ad 40%, #031616);
+  background: linear-gradient(90deg, #71006aad 40%, #031616);
 }
 .box-comment {
   background-color: rgba(0, 0, 0, 0.425);
@@ -261,7 +261,7 @@ hr.x-hr {
   width: 98%;
 }
 .review {
-  background: linear-gradient(90deg, #852121 40%, #660c0c);
+  background: linear-gradient(90deg, #472185 40%, #660c53);
   color: #fff;
   position: absolute;
   width: 101%;
@@ -273,7 +273,7 @@ hr.x-hr {
   font-style: 2rem;
 }
 .pro {
-  background: linear-gradient(90deg, #852121 40%, #660c0c);
+  background: linear-gradient(90deg, #472185 40%, #660c53);
   color: #fff;
   position: absolute;
   width: 20rem;
@@ -357,19 +357,19 @@ hr.x-hr {
     background-position: center;
     bottom: -0.2rem;
     display: flex;
-    padding-top: 0.1rem;
+    padding-top: 0.5rem;
   }
   .imgooo {
     position: absolute;
     transform: translateX(-50%);
-    bottom: 0.5rem;
+    bottom: 0.1rem;
     left: 50%;
     width: 7rem;
     /* box-shadow: -5px -5px 10px #000; */
     border-radius: 4rem;
   }
   .img-bar {
-    width: 3.5rem;
+    width: 3rem;
   }
   .btn-mini {
     font-size: 0.7rem;
@@ -379,13 +379,13 @@ hr.x-hr {
   .promotion {
     width: 7rem;
     position: absolute;
-    background: linear-gradient(90deg, #380606 40%, #031616);
-    border-radius: 0.2rem;
+    background: linear-gradient(90deg, #380635 40%, #031616);
+    border-radius: 1rem;
     border: 1px solid #a58556;
     box-shadow: -5px -5px 10px #000;
     padding: 0.5rem;
     transform: translateX(-50%);
-    top: -3rem;
+    top: -5%;
     left: 50.5%;
     /* transform: translateY(-50%); */
     font-size: 0.7rem;
@@ -393,6 +393,26 @@ hr.x-hr {
   .promotion2 {
     width: 8rem;
     top: -2rem;
-    border-radius: 0.2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+ 
+  .promotion {
+    width: 7rem;
+    position: absolute;
+    background: linear-gradient(90deg, #380635 40%, #031616);
+    border-radius: 1rem;
+    border: 1px solid #a58556;
+    box-shadow: -5px -5px 10px #000;
+    padding: 0.5rem;
+    transform: translateX(-50%);
+    top: -1rem;
+    left: 50.5%;
+    /* transform: translateY(-50%); */
+    font-size: 0.7rem;
+  }
+  .promotion2 {
+    width: 8rem;
+    top: -2rem;
   }
 }
